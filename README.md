@@ -1,5 +1,7 @@
-# CLICaseStudy
-Case study of different CLI's on the market
+# CLI Benchmark
 
+Studying and Benchmarking different CLI's on the market
 
-[Oclif](/Oclif)
+## CLI's studied
+
+- [Oclif](/Oclif/docs/ABOUTME.md)
