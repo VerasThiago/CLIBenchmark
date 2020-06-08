@@ -52,7 +52,8 @@
     "plugins": [
       "@oclif/plugin-help",
       "@oclif/plugin-autocomplete",
-      "@oclif/plugin-not-found"
+      "@oclif/plugin-not-found",
+      "@oclif/plugin-plugins"
     ]
   },
   "repository": "VerasThiago/OclifCLI",

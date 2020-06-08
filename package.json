@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@oclif/plugin-plugins": "^1.7.9"
+  }
+}
