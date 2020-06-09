@@ -1,4 +1,4 @@
-### [OCLIF](oclif.io)
+### [OCLIF](https://oclif.io)
 
 [Medium Post](https://medium.com/adobetech/how-to-easily-create-clis-using-oclif-and-how-we-did-it-for-the-adobe-i-o-cli-e9eb888e9ec6)
 
@@ -32,9 +32,17 @@
     }
 ```
 
+### How to create a plugin
+
+- `npx oclif plugin plugin-name`
+
+- Now you can code like a normal Oclif CLI
+
+
 ### How to add your own plugin
 
 - `yarn add @oclif/plugin-plugins`
+
 - Add the following to your package.json 
 ```
     "oclif": {
@@ -46,7 +54,18 @@
 ```
 Now the user can run any of the commands below to manage plugins at runtime.
 
-### How to create a plugin
+- Move to your plugin root folder and run the command: `overas plugins:link`
+
+![](link-plugin.png)
+
+### How to publish plugins
+
+- All that is needed to run `overas plugins:install` to install a plugin is for it to be published on [npmjs.com](https://npmjs.com).
+
+- [Create an account](https://www.npmjs.com/signup) then log into it from your terminal using: `npm login`
+
+- Use [np](https://github.com/sindresorhus/np) to make publishing to npm easier. You can release an update with: `npx np`
+
 
 
 ## Useful Plugins
