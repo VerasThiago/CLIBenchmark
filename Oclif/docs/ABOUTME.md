@@ -32,11 +32,13 @@
     }
 ```
 
-### How to create a plugin
+### How to create plugin
 
 - `npx oclif plugin plugin-name`
 
-- Now you can code like a normal Oclif CLI
+- Now you can code like normal Oclif CLI
+
+- [My plugin](https://github.com/VerasThiago/OclifTimePlugin)
 
 
 ### How to add your own plugin
@@ -95,3 +97,13 @@ Don't forget to add on `package.json`
 When I tried the *command* `plugin`, he suggests another *command* that don't exist. Also, you get stuck because since this *command* don't exist he will suggest another one (that is himself).
 
 ![](notfoundproblem.png)
+
+## Extras
+
+### How to update CLI or Plugin documentation
+
+- Run: `./node_modules/@oclif/dev-cli/bin/run readme` in your root folder
+
+![](updatingREADME.png)
+
+- Checkout the README file generated [here](../mynewcli/README.md)
