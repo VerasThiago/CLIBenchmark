@@ -1,7 +1,7 @@
 # CLI Benchmark
 
-Studying and Benchmarking different CLI's on the market
+Estudar e realizar Benchmarks em diferentes CLI's no mercado
 
-## CLI's studied
+## CLI's estudados
 
 - [Oclif](/Oclif/docs/ABOUTME.md)
